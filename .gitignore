@@ -1,0 +1,16 @@
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+.vercel/
+.openai/
+.impeccable/
+
+# Dependências e arquivos temporários
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+
