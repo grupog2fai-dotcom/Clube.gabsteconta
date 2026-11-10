@@ -29,7 +29,15 @@ Abra `http://localhost:8000` no navegador.
 
 `dist/config.js` contém as redes sociais, o formulário de solicitação, o e-mail de contato e os dados públicos de Pix autorizados pelo responsável. Esse arquivo é entregue ao navegador; não inclua senhas, chaves de API ou convites privados.
 
-O formulário de solicitação já está configurado. O recebimento de apoios continua desativado com `supportEnabled: false`, aguardando a conclusão das validações e da operação. As regras, os valores e os textos do site foram preservados nesta exportação.
+O Pix e o formulário de solicitação estão configurados com os dados confirmados pelo responsável. A entrada no Clube custa R$ 9,90, uma única vez, sem mensalidade. Apoio extra é opcional. O responsável confere o crédito no banco e envia o convite privado por e-mail em até 24 horas após a confirmação e identificação; o site não aprova pagamentos nem libera convites automaticamente.
+
+Metade dos valores confirmados, excluídos os estornos, mantém a série; metade fica reservada à criação do projeto para idosos. O maior apoio extra do episódio recebe os reconhecimentos descritos na página, com autorização para nome/aparência.
+
+## Revisão visual e vídeo
+
+Gabriel é a identidade do cabeçalho, hero, apresentação, ícones e compartilhamento. A apresentação está em `dist/assets/apresentacao-gabriel.mp4`, com cerca de 55 segundos, H.264/AAC e início rápido para reprodução web. Os controles aparecem ao solicitar o vídeo; ele não é baixado automaticamente na abertura.
+
+O site usa os arquivos locais de Bangers e DM Sans, com as licenças em `dist/assets`. A documentação de produto e os tokens estão em `PRODUCT.md` e `DESIGN.md`.
 
 ## Estrutura
 
